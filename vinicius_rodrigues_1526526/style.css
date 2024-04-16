@@ -1,0 +1,41 @@
+section{
+    padding: 20px;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    
+}
+
+.card-group{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1500px;
+}
+
+.colegas{
+    display: flex;
+}
+
+footer{
+    text-align: center;
+}
+
+@media (width<2560) and (height<1600) {
+    .perfil{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .colegas{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
