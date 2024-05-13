@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "DropFleet-login",
+			"path": "DropFleet-login"
+		},
+		{
+			"name": "DropFleet-main",
+			"path": "DropFleet-main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "DropFleet-login"
+	}
+}
