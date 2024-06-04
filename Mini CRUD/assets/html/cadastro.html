@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Cadastrar</h1>
+
+            <div id="msgErro"></div>
+            <div id="msgSucesso"></div>
+
+            <div class="label-float">
+                <input type="text" id="nome" placeholder=" ">
+                <label id="labelNome" for="usuario">Nome</label>
+            </div>
+
+            <div class="label-float">
+                <input type="email" id="email" placeholder=" ">
+                <label id="labelEmail" for="usuario">E-mail</label>
+            </div>
+
+            <div class="label-float">
+                <input type="password" id="senha" placeholder=" ">
+                <label id="labelSenha" for="usuario">Senha</label>
+                <i id="verSenha" class="fa-solid fa-eye"></i>
+            </div>
+
+            <div class="label-float">
+                <input type="password" id="confirmSenha" placeholder=" ">
+                <label id="labelConfirmSenha" for="confirmSenha">Confirmar Senha</label>
+                <i id="verconfirmSenha" class="fa-solid fa-eye"></i>
+            </div>
+            
+            <div class="justify-center">
+                <button onclick="cadastrar()">Cadastrar</button> 
+            </div>
+
+        </div>
+    </div>
+    <script src="../js/cadastro.js"></script>
+</body>
+</html>

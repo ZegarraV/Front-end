@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="" href="../js/inicio.js">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Entrar</h1>
+
+            <div id="msgErro"></div>
+
+            <div class="label-float">
+                <input type="email" id="email" placeholder=" " required>
+                <label id="emailLabel" for="usuario">E-mail</label>
+            </div>
+
+            <div class="label-float">
+                <input type="password" id="senha" placeholder=" " required>
+                <label id="senhaLabel" for="usuario">Senha</label>
+                <i class="fa-solid fa-eye"></i>
+            </div>
+
+            <div class="justify-center">
+                <button onclick="entrar(event)">Entrar</button> 
+            </div>
+
+            <div class="justify-center">
+                <hr>
+            </div>
+
+            <p>Não tem uma conta?
+                <a href="../html/cadastro.html">Cadastre-se</a>
+            </p>
+
+        </div>
+    </div>
+    <script src="../js/login.js"></script>
+</body>
+</html>
