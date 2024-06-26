@@ -1,0 +1,57 @@
+section{
+    padding: 20px;
+}
+
+body {
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    
+}
+
+.card-group{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1500px;
+}
+
+.colegas{
+    display: flex;
+}
+
+.card img {
+    height: 400px;
+    object-fit: contain;
+    width: 100%;
+}
+
+.card-img-top{
+    height: 600px;
+    object-fit: contain;
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+}
+
+@media (width<2560) and (height<1600) {
+    .perfil{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .colegas{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
